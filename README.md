@@ -2,6 +2,7 @@
 
 This repository is created for testing different git clone commands used in blog post.
 
+## Shallow clone : `git clone --depth=1 https://github.com/ShubhamOulkar/git-clone-testing.git`
 
 ## React + TypeScript + Vite
 
