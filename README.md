@@ -2,9 +2,20 @@
 
 This repository is created for testing different git clone commands used in blog post.
 
-## Shallow clone : `git clone --depth=1 https://github.com/ShubhamOulkar/git-clone-testing.git`
+## Shallow clone : 
+```bash
+git clone --depth=1 https://github.com/ShubhamOulkar/git-clone-testing.git
+```
 
-## blobless clone : `git clone --filter=blob:none  https://github.com/ShubhamOulkar/git-clone-testing.git`
+## blobless clone : 
+```bash
+git clone --filter=blob:none  https://github.com/ShubhamOulkar/git-clone-testing.git
+```
+
+## treeless clone :
+```bash
+git clone --filter=tree:0  https://github.com/ShubhamOulkar/git-clone-testing.git
+``` 
 
 ## React + TypeScript + Vite
 
