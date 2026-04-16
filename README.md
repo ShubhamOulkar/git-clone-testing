@@ -4,6 +4,8 @@ This repository is created for testing different git clone commands used in blog
 
 ## Shallow clone : `git clone --depth=1 https://github.com/ShubhamOulkar/git-clone-testing.git`
 
+## blobless clone : `git clone --filter=blob:none  https://github.com/ShubhamOulkar/git-clone-testing.git`
+
 ## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
